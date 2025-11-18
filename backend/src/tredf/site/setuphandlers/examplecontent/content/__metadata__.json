@@ -1,0 +1,106 @@
+{
+  "__version__": "1.0.0",
+  "_blob_files_": [
+    "a58ccead718140c1baa98d43595fc3e6/image/plone-foundation.png"
+  ],
+  "_data_files_": [
+    "plone_site_root/data.json",
+    "a720393b3c0240e5bd27c43fcd2cfd1e/data.json",
+    "a58ccead718140c1baa98d43595fc3e6/data.json",
+    "0a625328505e416b87fd1f4901bbb161/data.json"
+  ],
+  "default_page": {},
+  "local_permissions": {
+    "0a625328505e416b87fd1f4901bbb161": {},
+    "a58ccead718140c1baa98d43595fc3e6": {},
+    "a720393b3c0240e5bd27c43fcd2cfd1e": {},
+    "plone_site_root": {
+      "Add portal member": {
+        "acquire": false,
+        "roles": [
+          "Manager",
+          "Site Administrator",
+          "Owner"
+        ]
+      },
+      "Content rules: Manage rules": {
+        "acquire": false,
+        "roles": [
+          "Manager",
+          "Site Administrator"
+        ]
+      },
+      "Set own password": {
+        "acquire": false,
+        "roles": [
+          "Authenticated",
+          "Manager",
+          "Site Administrator"
+        ]
+      },
+      "Set own properties": {
+        "acquire": false,
+        "roles": [
+          "Authenticated",
+          "Manager",
+          "Site Administrator"
+        ]
+      },
+      "Show Toolbar": {
+        "acquire": false,
+        "roles": [
+          "Authenticated"
+        ]
+      },
+      "plone.resource: Export ZIP file": {
+        "acquire": false,
+        "roles": [
+          "Manager"
+        ]
+      },
+      "plone.resourceeditor: Manage Sources": {
+        "acquire": false,
+        "roles": [
+          "Manager",
+          "Site Administrator"
+        ]
+      }
+    }
+  },
+  "local_roles": {
+    "0a625328505e416b87fd1f4901bbb161": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "a58ccead718140c1baa98d43595fc3e6": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "a720393b3c0240e5bd27c43fcd2cfd1e": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "plone_site_root": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    }
+  },
+  "ordering": {
+    "0a625328505e416b87fd1f4901bbb161": 42,
+    "a58ccead718140c1baa98d43595fc3e6": 0,
+    "a720393b3c0240e5bd27c43fcd2cfd1e": 41
+  },
+  "relations": []
+}

@@ -1,0 +1,33 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="tredf.site"
+    >
+
+  <genericsetup:registerProfile
+      name="default"
+      title="Treinamento TRE-DF: Install"
+      description="Package to configure a new Treinamento TRE-DF site"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      directory="profiles/default"
+      />
+
+  <genericsetup:registerProfile
+      name="initial"
+      title="Treinamento TRE-DF: Example content"
+      description="Create example content to showcase the new website"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      directory="profiles/initial"
+      pre_handler=".setuphandlers.initial.create_example_content"
+      />
+
+  <!-- Hide Uninstall Profile-->
+  <utility
+      factory=".setuphandlers.HiddenProfiles"
+      name="tredf.site"
+      />
+
+
+  <include package=".upgrades" />
+
+</configure>

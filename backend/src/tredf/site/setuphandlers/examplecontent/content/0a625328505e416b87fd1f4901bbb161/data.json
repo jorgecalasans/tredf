@@ -1,0 +1,111 @@
+{
+  "@id": "/tre-df",
+  "@type": "News Item",
+  "UID": "0a625328505e416b87fd1f4901bbb161",
+  "allow_discussion": null,
+  "blocks": {
+    "337edac0-c83e-443b-a928-a80876ce57d0": {
+      "@type": "title"
+    },
+    "64226f99-7e7d-4a9d-ad03-26dd4b98b35f": {
+      "@type": "slate",
+      "plaintext": "",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "658eddb0-1062-4be5-9561-e2c707d1e907": {
+      "@type": "slate",
+      "plaintext": "",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "a0b53c78-9cf4-4016-9fa5-0e2a18219929": {
+      "@type": "slate",
+      "plaintext": "Teste de cria\u00e7\u00e3o de p\u00e1gina",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Teste de cria\u00e7\u00e3o de p\u00e1gina"
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "337edac0-c83e-443b-a928-a80876ce57d0",
+      "a0b53c78-9cf4-4016-9fa5-0e2a18219929",
+      "64226f99-7e7d-4a9d-ad03-26dd4b98b35f",
+      "658eddb0-1062-4be5-9561-e2c707d1e907"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2025-11-18T18:41:57+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "",
+  "effective": "2025-11-18T18:49:28+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "tre-df",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "newsitem_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2025-11-18T18:49:28+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Noticias",
+  "type_title": "News Item",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2025-11-18T18:41:57+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2025-11-18T18:49:28+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}
