@@ -1,0 +1,34 @@
+[repository]
+name = "tredf"
+changelog = "CHANGELOG.md"
+version = "version.txt"
+version_format = "calver"
+container_images_prefix = "ghcr.io/jorgecalasans/tredf"
+compose = ["docker-compose.yml"]
+
+[repository.towncrier]
+section = "Project"
+settings = "towncrier.toml"
+
+[backend.package]
+name = "tredf.site"
+path = "backend"
+code_path = "src/tredf/site"
+changelog = "backend/CHANGELOG.md"
+towncrier_settings = "backend/pyproject.toml"
+base_package = "Products.CMFPlone"
+publish = false
+
+[frontend.package]
+name = "volto-tredf-site"
+path = "frontend/packages/volto-tredf-site"
+code_path = "src"
+changelog = "frontend/packages/volto-tredf-site/CHANGELOG.md"
+towncrier_settings = "frontend/packages/volto-tredf-site/towncrier.toml"
+base_package = "@plone/volto"
+publish = false
+
+[cookieplone]
+template = "project"
+template_version = "fa7836eb9636d241ca3f5c512d8cba88aa7e348a"
+generated_date = "2025-11-24 18:04:23"

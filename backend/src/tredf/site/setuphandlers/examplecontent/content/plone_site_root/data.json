@@ -1,0 +1,125 @@
+{
+  "@id": "/Plone",
+  "@type": "Plone Site",
+  "UID": "plone_site_root",
+  "allow_discussion": null,
+  "blocks": {
+    "210d00e9-c074-44ef-a2cd-258bc4e42597": {
+      "@type": "slate",
+      "plaintext": "",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "35901e5c-d3e3-40f6-a683-957fbd0a644c": {
+      "@type": "slate",
+      "plaintext": "",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "5f31e9e4-173f-4ec1-ab48-64e9e2789b76": {
+      "@type": "title"
+    },
+    "684c8b3a-6f2d-4bdb-930c-03275258a572": {
+      "@type": "slate",
+      "plaintext": "",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "7b91dbdc-d246-4337-ba38-f4decd29c0db": {
+      "@type": "slate",
+      "plaintext": "",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "7f389096-b288-4639-99b1-eb539ca268ab": {
+      "@type": "image",
+      "align": "center",
+      "alt": "",
+      "image_field": "image",
+      "size": "l",
+      "url": "resolveuid/0f14e01fed9d4d9983ca81616f062046"
+    },
+    "e5ace182-3746-472c-ad81-696425a2b161": {
+      "@type": "slate",
+      "plaintext": "Boas vindas ao nosso site",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Boas vindas ao nosso site"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "5f31e9e4-173f-4ec1-ab48-64e9e2789b76",
+      "e5ace182-3746-472c-ad81-696425a2b161",
+      "7f389096-b288-4639-99b1-eb539ca268ab",
+      "684c8b3a-6f2d-4bdb-930c-03275258a572",
+      "7b91dbdc-d246-4337-ba38-f4decd29c0db",
+      "210d00e9-c074-44ef-a2cd-258bc4e42597",
+      "35901e5c-d3e3-40f6-a683-957fbd0a644c"
+    ]
+  },
+  "contributors": [],
+  "creators": [
+    "admin"
+  ],
+  "description": "",
+  "effective": null,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "Plone",
+  "is_folderish": true,
+  "items_total": 3,
+  "language": "##DEFAULT##",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "TRE-DF",
+  "type_title": "Plone Site",
+  "workflow_history": {},
+  "working_copy": null,
+  "working_copy_of": null
+}
